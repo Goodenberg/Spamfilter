@@ -10,7 +10,6 @@ import getpass
 
 
 host = input('Enter imap host: ')
-
 imap_client = IMAP4_SSL(host)
 
 imap_client.noop()
